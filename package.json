@@ -13,6 +13,7 @@
     "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
   },
   "devDependencies": {
+    "aws-sdk": "^2.819.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
@@ -20,5 +21,7 @@
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "uuid": "^7.0.3"
+  }
 }
